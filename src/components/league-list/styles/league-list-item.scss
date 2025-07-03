@@ -1,0 +1,8 @@
+.league-list-item {
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--p-neutral-100);
+    transition: background-color 0.25s ease;
+  }
+}

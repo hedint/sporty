@@ -1,0 +1,13 @@
+.league-board__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.league-board-toolbar {
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

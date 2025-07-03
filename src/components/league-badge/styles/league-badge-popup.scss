@@ -1,0 +1,23 @@
+.league-badge-popup {
+  &__content {
+    max-width: 100dvw;
+  }
+
+  &__img-wrapper {
+    display: flex;
+    width: 100%;
+    min-width: min(80dvw, 515px); // just to loader look nice
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__empty {
+    max-width: 515px; // fits the image size
+  }
+}
