@@ -1,6 +1,8 @@
 {
   "name": "sporty",
   "version": "0.0.1",
+  "author": "Vyacheslav Volodin<vachvol@gmail.com>",
+  "repository": "https://github.com/hedint/sporty",
   "private": true,
   "type": "module",
   "scripts": {
