@@ -1,10 +1,11 @@
 # Sporty
 
+The app deployed here https://hedint.github.io/sporty/ .
 
 ## AI usage
 - I used the free version of GitHub Copilot as an auto-completion tool to speed up development.
 - I used ChatGPT to generate base `fetch` and `cache` wrappers, which I then modified to meet the project requirements.
-- Also, it helps me to polish this README file :) 
+- Also, it helps me polish this README file :) 
 
 ## Architecture and Design Decisions
 
@@ -26,6 +27,11 @@ In addition, I implemented several UI/UX features not explicitly required by the
 - Responsive layout
 - Empty states
 
+### CI/CD
+
+I set up a simple CI/CD pipeline to automatically build and deploy the app to `GitHub Pages`.
+
+The app is here: [https://hedint.github.io/sporty/](https://hedint.github.io/sporty/)
 
 ## Project Setup
 
